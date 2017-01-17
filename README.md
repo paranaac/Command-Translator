@@ -5,7 +5,8 @@
 CSCI511-01 - Operating Systems Project #3
 
 
-There are only three user commands
+# There are only three user commands
+
 • SEEK #: This seeks out a block. The # will be an integer from 0 to 99. The file position will be changed
 to #. Example: SEEK 82 sets the file position to 82.
 
@@ -21,7 +22,7 @@ Example: WRITE 4 2 9 will write 4 to the current file position, increment the fi
 that file position, increment the file position, write 9 to that file position, and increment the file position
 again.
 
-You will be given up to 32 user commands in a batch. You must do the following:
+# You will be given up to 32 user commands in a batch. You must do the following:
 
 • Translate the user commands to hardware commands.
 
